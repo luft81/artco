@@ -12,25 +12,43 @@ body{
     color: black;
     height: 100vh;
 }
-header{
+/*header{
     background-color:whitesmoke;
     margin-top: 0%;
     border-style: solid;
     border-color: white;
     border-width: 3px;   
+}*/
+.encabezado{
+    font-size: 60pt;
+    font-weight: bold;
+    color: white;
+    background-image: url("../images/banner_principal.png");
+    background-size: 100% 100%;
 }
-nav{
+
+.img{
+  margin:10px auto;
+  border-radius:5px;
+  border: 1px solid #999;
+  padding:13px;
+  width:220px;
+  height:220px;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  }
+/*nav{
     background-color:black;
     color: white;
     border-style: solid;
     border-color: black;
     border-width: 1px;
-}
+}*/
 .contenido{
     background-color: gray;
-   /* display: inline-flex;*/
+    display: inline-flex;
     padding: 1%;
-
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto;
@@ -43,7 +61,7 @@ nav{
 section{
     background-color: whitesmoke;
     width: 100%;
-    text-align: justify; 
+    /*text-align: justify;*/ 
     padding: 2%;
 }
 aside{
@@ -65,16 +83,7 @@ footer{
     
 }
 @media screen and (max-width:800px){
-    .contenido{
-        display: block;
-    }
-    section{
-        width:100%;
-    }
-    aside{
-        width: 100%;
-    }
-}
+    
 @media screen and (max-width:600px){
     aside{
         display: none;

@@ -12,62 +12,85 @@
 </head>
 <body>
     <div class="principal">
-        <h6>.....</h6>
-     
-     <header>
-        <h1>ArtCo</h1>
-     </header>
-
-     <nav>
-        <ul>
-            <li><a href="page_2.html">Obra bidimensional</a></li>
-            <li><a href="page_3.html">Obra tridimensional</a></li>
-        </ul>
-     </nav>
-
-     <div class= "contenido">
-        <section>
-            <h2>¿Qué es ArtCo?</h2>
-            <p>La Colección ArtCo es un proyecto que surge del requerimiento del señor Bruno Díaz, cuyo interés es promover la economía de las artes visuales en la ciudad de Cali, Colombia; a través de la adquisición de obras de arte de artistas de la región cuya trayectoria supera los 30 años. La colección ArtCo se compone de una serie de obras bidimensionales (pintura, dibujo) y tridimensionales (escultura, ensambles), que el señor Bruno Díaz ha adquirido a partir de su análisis personal, gusto estético y consejo especializado. Las obras de la colección son cedidas en préstamo de acuerdo a convenios con instituciones de arte de vez en cuando y deben ser conservadas en condiciones específicas.
-            </p>
-            <img src="bidimensional/pintura_JuanMejia.jpg" alt="pintura_JuanMejia">    
-        </section>
-        
-        <aside>
-            <h2>Artistas</h2>
-            <ul>
-                <li>Óscar Muñoz</li>
-                <li>Carlos Andrade</li>
-                <li>Karen Lamassone</li>
-                <li>Melecio Palacios</li>
-                <li>Juan Mejía</li>
-                <li>Giovanni Vargas</li>
-                <li>Leonardo Herrera</li>
-                <li>Alicia Barney</li>
-                <li>Elías Heim</li>
-                <li>Ever Astudillo</li>
-            </ul>
-            <h3>Subscripción</h3>
-            <form>
-                <label for="fname">Nombre de usuario:</label><br>
-                <input  type="text" id="fname" name= "fname"><br>
-                <label for="lname">Apellido de usuario:</label><br>
-                <input  type="text" id="lname" name= "lname"><br>
-                <label for="id">Identificación:</label><br>
-                <input  type="text" id="id" name= "id"><br>
-                <input  type="submit" value= "submit">  
-            </form>
-            <a href="http://www.museolatertulia.com">Ir a Museo La Tertulia</a>
-        </aside>
-
+        <header class ="encabezado">
+            ArtCo
+        </header>        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="page_1.html">ARTCO</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="page_1.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="page_2.html">Obra bidimensional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="page_3.html">Obra tridimensional</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Artistas
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+        <div class= "contenido">
+            <section>
+                <h2>¿Qué es ArtCo?</h2>
+                <p>La Colección ArtCo es un proyecto que surge del requerimiento del señor Bruno Díaz, cuyo interés es promover la economía de las artes visuales en la ciudad de Cali, Colombia; a través de la adquisición de obras de arte de artistas de la región cuya trayectoria supera los 30 años. La colección ArtCo se compone de una serie de obras bidimensionales (pintura, dibujo) y tridimensionales (escultura, ensambles), que el señor Bruno Díaz ha adquirido a partir de su análisis personal, gusto estético y consejo especializado. Las obras de la colección son cedidas en préstamo de acuerdo a convenios con instituciones de arte de vez en cuando y deben ser conservadas en condiciones específicas.
+                </p>
+                <img clas="img" src="bidimensional/pintura_JuanMejia.jpg" alt="pintura_JuanMejia">    
+            </section>
+            
+            <aside>
+                <h2>Artistas</h2>
+                <ul>
+                    <li>Óscar Muñoz</li>
+                    <li>Carlos Andrade</li>
+                    <li>Karen Lamassone</li>
+                    <li>Melecio Palacios</li>
+                    <li>Juan Mejía</li>
+                    <li>Giovanni Vargas</li>
+                    <li>Leonardo Herrera</li>
+                    <li>Alicia Barney</li>
+                    <li>Elías Heim</li>
+                    <li>Ever Astudillo</li>
+                </ul>
+                <h3>Subscripción</h3>
+                <form>
+                    <label for="fname">Nombre de usuario:</label><br>
+                    <input  type="text" id="fname" name= "fname"><br>
+                    <label for="lname">Apellido de usuario:</label><br>
+                    <input  type="text" id="lname" name= "lname"><br>
+                    <label for="id">Identificación:</label><br>
+                    <input  type="text" id="id" name= "id"><br>
+                    <input  type="submit" value= "submit">  
+                </form>
+            </aside>
+        </div>
     </div>
 
 <footer>
-<h4>www.artco.com</h4>
-<h5>Email: artco@artco.org</h5>
-<h5>Telefono: 321 212121</h5>
-<h4>INTEGRANTES</h4>
-<h4>Leonardo López (Product Owner), Jorge Martínez (Scrum Master), Carlos Cardona (Desarrollo), John A. Rincón (Desarrollo).</h4>
+    <h4>www.artco.com</h4>
+    <h5>Email: artco@artco.org</h5>
+    <h5>Telefono: 321 212121</h5>
+    <h4>INTEGRANTES</h4>
+    <h4>Leonardo López (Product Owner), Jorge Martínez (Scrum Master), Carlos Cardona (Desarrollo), John A. Rincón (Desarrollo).</h4>
 </footer>
     
 </body>
