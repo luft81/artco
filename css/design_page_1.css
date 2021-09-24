@@ -4,7 +4,7 @@ body{
     background-color: gray;
 }
 .principal{
-    width: 90%;
+    width: 95%;
     max-width: 900%;
     margin: auto;
     background-color:gray;
@@ -12,13 +12,14 @@ body{
     color: black;
     height: 100vh;
 }
-/*header{
-    background-color:whitesmoke;
+header{
+    background-color:black;
     margin-top: 0%;
     border-style: solid;
-    border-color: white;
-    border-width: 3px;   
-}*/
+    border-color: black;
+    border-width: 3px;
+    color: whitesmoke;  
+}
 .encabezado{
     font-size: 60pt;
     font-weight: bold;
@@ -26,18 +27,6 @@ body{
     background-image: url("../images/banner_principal.png");
     background-size: 100% 100%;
 }
-
-.img{
-  margin:10px auto;
-  border-radius:5px;
-  border: 1px solid #999;
-  padding:13px;
-  width:220px;
-  height:220px;
-  background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background-size: cover;
-  }
 /*nav{
     background-color:black;
     color: white;
@@ -63,6 +52,7 @@ section{
     width: 100%;
     /*text-align: justify;*/ 
     padding: 2%;
+    text-align: center;
 }
 aside{
     background-color:gray;
@@ -89,4 +79,15 @@ footer{
         display: none;
     }
 
+}
+.img{
+    margin:10px auto;
+    border: 1px solid #999;
+    padding: 10px;
+    width: 635px;
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: url(.../img/imagen.jpg);
+    background-size: cover;
 }

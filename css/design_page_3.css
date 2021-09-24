@@ -17,8 +17,8 @@ header{
     margin-top: 0%;
     border-style: solid;
     border-color:black;
-    border-width: 3px; 
-    color: whitesmoke; 
+    border-width: 3px;  
+    color: whitesmoke;
 }
 /*nav{
     background-color:black;
@@ -81,8 +81,8 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 700px;
-    height: 515px;
+    width: 800px;
+    height: 1200px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
@@ -92,8 +92,8 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 530px;
-    height: 350px;
+    width: 1020px;
+    height: 690px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
@@ -103,8 +103,8 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 820px;
-    height: 1035px;
+    width: 975px;
+    height: 880px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
@@ -114,8 +114,8 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 630px;
-    height: 440px;
+    width: 1040px;
+    height: 790px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
@@ -125,8 +125,8 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 900px;
-    height: 730px;
+    width: 1020px;
+    height: 700px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
@@ -136,8 +136,29 @@ footer{
     margin:10px auto;
     border: 1px solid #999;
     padding: 7px;
-    width: 930px;
-    height: 945px;
+    width: 940px;
+    height: 700px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: url(.../img/imagen.jpg);
+    background-size: cover;
+}
+.img_6{
+    margin:10px auto;
+    border: 1px solid #999;
+    padding: 7px;
+    width: 1000px;
+    height: 670px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: url(.../img/imagen.jpg);
+    background-size: cover;
+}.img_7{
+    margin:10px auto;
+    border: 1px solid #999;
+    padding: 7px;
+    width: 635px;
+    height: 425px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background: url(.../img/imagen.jpg);
